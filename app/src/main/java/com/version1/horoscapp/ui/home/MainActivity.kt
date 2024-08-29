@@ -10,6 +10,8 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.version1.horoscapp.R
 import com.version1.horoscapp.databinding.ActivityMainBinding
+import dagger.hilt.android.HiltAndroidApp
+
 
 class MainActivity : AppCompatActivity() {
 

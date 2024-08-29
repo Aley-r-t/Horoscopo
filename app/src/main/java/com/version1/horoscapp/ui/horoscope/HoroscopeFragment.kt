@@ -5,12 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import com.version1.horoscapp.R
 import com.version1.horoscapp.databinding.FragmentHoroscopeBinding
 
 
 class HoroscopeFragment : Fragment() {
 
+    private val horoscopeViewModel by viewModels<HoroscopeViewModel>()
     private var _binding: FragmentHoroscopeBinding? = null
     private val binding get() = _binding!!
 

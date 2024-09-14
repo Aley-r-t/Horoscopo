@@ -42,7 +42,7 @@
         app:layout_constraintBottom_toBottomOf="parent"/>
 
     <!-- El fragment container algo esta mal porque no funciona correctamente -->
-
+    <!-- <fragment  Por Commit xD-->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="0dp"

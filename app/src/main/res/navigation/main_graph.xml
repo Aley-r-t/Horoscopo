@@ -15,7 +15,7 @@
         android:name="com.version1.horoscapp.ui.luck.LuckFragment"
         android:label="fragment_luck"
         tools:layout="@layout/fragment_luck" />
-    <fragment
+     <fragment
         android:id="@+id/palmistryFragment"
         android:name="com.version1.horoscapp.ui.palmistry.PalmistryFragment"
         android:label="fragment_palmistry"
